@@ -1,0 +1,45 @@
+<div class="container-fluid">
+    <div ng-include="'partials/navbar'"></div>
+    <div class="row">
+        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Panel title</h3>
+                </div>
+                <div class="panel-body" ng-repeat="thing in awesomeThings">
+                    <h3>{{thing.name}}</h3>
+                    <p>{{thing.info}}</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">ToDo</h3>
+                </div>
+                <div class="panel-body">
+                    <ul>
+                        <li>Dashboard</li>
+                        <li>comunity marketplace</li>
+                        <li>multiple view</li>
+                        <ul>
+                            <li>grid view</li>
+                            <li>list view</li>
+                            <li>map view</li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Panel title</h3>
+                </div>
+                <div class="panel-body">
+                    Panel content
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
